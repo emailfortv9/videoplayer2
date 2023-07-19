@@ -3,7 +3,7 @@ body {
     font-family: sans-serif;
 }
 
-.container {
+.video-container {
     box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 0.3);
     border-radius: 10px;
     overflow: hidden;
