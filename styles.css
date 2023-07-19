@@ -4,12 +4,16 @@ body {
 }
 
 .container {
+    width: 90vw; /* make the container wider */
+    max-width: 960px; /* limit the maximum width of the container */
     box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 0.3);
     border-radius: 10px;
     overflow: hidden;
 }
 
 #myVideo {
+    width: 80vw; /* take up 80% of the viewport width */
+    max-width: 900px; /* don't let the video exceed 900px */
     border-bottom: 4px solid #E2E8F0;
 }
 
@@ -23,4 +27,13 @@ body {
     font-size: 1.2em;
     margin-top: 20px;
     word-wrap: break-word;
+}
+
+@media screen and (max-width: 600px) {
+    #myVideo {
+        width: 100%; /* on smaller screens, let the video take up the full width */
+    }
+    .container {
+        width: 100%; /* make the container take up the full width on small screens */
+    }
 }
