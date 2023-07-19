@@ -1,15 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
-<body oncontextmenu="return false;">
-    <div class="container mx-auto flex flex-col items-center justify-center min-h-screen text-white">
-        <div class="video-container w-full max-w-md">
-            <video id="myVideo" class="w-full" controlsList="nodownload"></video>
-        </div>
+<body>
+    <div class="container mx-auto flex flex-col items-center justify-center h-screen text-white">
+        <video id="myVideo" controls controlsList="nodownload" autoplay class="w-full max-w-md"></video>
         <h2 class="mt-4 text-lg" id="nextVideoInfo"></h2>
     </div>
     <script src="script.js"></script>
