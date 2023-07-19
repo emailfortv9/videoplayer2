@@ -1,0 +1,26 @@
+body {
+    background: linear-gradient(to right, #1A202C, #2D3748, #4A5568);
+    font-family: sans-serif;
+}
+
+.container {
+    box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#myVideo {
+    border-bottom: 4px solid #E2E8F0;
+}
+
+#nextVideoInfo {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 10px 20px;
+    border-radius: 5px;
+    max-width: 300px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-top: 20px;
+    word-wrap: break-word;
+}
