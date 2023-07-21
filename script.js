@@ -1,6 +1,6 @@
 var videoList = [
-  "https://s3.tebi.io/gigandi1/ko.2011.1080p.mkv",
-  "https://s3.tebi.io/gigandi1/paiyaa.2010.1080p.mkv"
+  "https://s3.tebi.io/gigandi1/KGF.2018.1080p.mkv",
+  "https://s3.tebi.io/gigandi1/KGF2.2022.1080p.mkv"
 ]; // replace with the URLs of your videos
 
 var videoPlayer = document.getElementById("myVideo");
