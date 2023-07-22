@@ -1,6 +1,6 @@
 var videoList = [
   "https://s3.tebi.io/gigandi1/KGF2.2022.1080p.mkv",
-  "https://s3.tebi.io/gigandi1/KGF.2018.1080p.mkv"
+  "https://s3.tebi.io/gigandi1/Vettaiyaadu.Vilaiyaadu.2006.1080p.mkv"
 ]; // replace with the URLs of your videos
 
 var videoPlayer = document.getElementById("myVideo");
@@ -8,6 +8,12 @@ var nextVideoInfo = document.getElementById("nextVideoInfo");
 
 // Disable right click on video player
 videoPlayer.oncontextmenu = function(event) {
+  event.preventDefault();
+  return false;
+};
+
+// Disable right click on the whole screen
+document.body.oncontextmenu = function(event) {
   event.preventDefault();
   return false;
 };
