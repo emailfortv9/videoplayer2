@@ -1,6 +1,5 @@
 var videoList = [
-  "https://s3.tebi.io/gigandi1/KGF2.2022.1080p.mkv",
-  "https://s3.tebi.io/gigandi1/Vettaiyaadu.Vilaiyaadu.2006.1080p.mkv"
+  "https://s3.tebi.io/drivegdfli/The.Dark.Knight.2008t.mp4",
 ]; // replace with the URLs of your videos
 
 var videoPlayer = document.getElementById("myVideo");
