@@ -53,3 +53,40 @@ videoPlayer.addEventListener("ended", function () {
 
 // Set initial video
 setVideoSource();
+// ... (previous script.js code)
+
+// Custom play/pause button
+var playPauseButton = document.querySelector(".play-pause-button");
+var playPauseIcon = playPauseButton.querySelector("i");
+
+videoPlayer.addEventListener("click", function () {
+  if (videoPlayer.paused) {
+    videoPlayer.play();
+    playPauseIcon.classList.remove("fa-play");
+    playPauseIcon.classList.add("fa-pause");
+  } else {
+    videoPlayer.pause();
+    playPauseIcon.classList.remove("fa-pause");
+    playPauseIcon.classList.add("fa-play");
+  }
+});
+
+videoPlayer.addEventListener("play", function () {
+  playPauseButton.classList.add("hidden");
+});
+
+videoPlayer.addEventListener("pause", function () {
+  playPauseButton.classList.remove("hidden");
+});
+
+playPauseButton.addEventListener("click", function () {
+  if (videoPlayer.paused) {
+    videoPlayer.play();
+    playPauseIcon.classList.remove("fa-play");
+    playPauseIcon.classList.add("fa-pause");
+  } else {
+    videoPlayer.pause();
+    playPauseIcon.classList.remove("fa-pause");
+    playPauseIcon.classList.add("fa-play");
+  }
+});
