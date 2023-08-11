@@ -1,11 +1,11 @@
 var videoList = [
   {
     url: "https://s3.tebi.io/drivegdfli/The.Dark.Knight.2008t.mp4",
-    name: "The Dark Knight"
+    name: "Asvins"
   },
   {
-    url: "https://s3.tebi.io/gigandi1/Asvins.2023.1080p.mkv",
-    name: "Asvins 2023"
+    url: "https://s3.tebi.io/sakthi/Por_Thozhil.mkv",
+    name: " Por Thozhil 2023"
   },
   // Add more videos with their names here
 ];
