@@ -4,7 +4,7 @@ var videoList = [
     name: "Asvins"
   },
   {
-    url: "https://s3.tebi.io/sakthi/Por_Thozhil3.mkv",
+    url: "https://onelineplayer.com/player.html?autoplay=false&autopause=true&muted=false&loop=false&url=https%3A%2F%2Fs3.tebi.io%2Fsakthi%2FPor_Thozhil3.mkv&poster=&time=true&progressBar=true&overlay=true&muteButton=true&fullscreenButton=true&style=light&quality=auto&playButton=true",
     name: " Por Thozhil 2023"
   },
   // Add more videos with their names here
