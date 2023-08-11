@@ -4,7 +4,7 @@ var videoList = [
     name: "Asvins"
   },
   {
-    url: "https://s3.tebi.io/sakthi/Por_Thozhil.mkv",
+    url: "https://s3.tebi.io/sakthi/Por_Thozhil1.mkv",
     name: " Por Thozhil 2023"
   },
   // Add more videos with their names here
